@@ -1,0 +1,116 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 80px;
+    padding: 0px 12%;
+    font-family: Roboto, monospace;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    margin: 0px 12px;
+}
+
+.main-article {
+    background: url("../../assets/images/Giant Panda.png") no-repeat top center;
+    height: 780px;
+}
+
+.main-header {
+    font-weight: 700;
+    font-size: 106.5px;
+    line-height: 79.87px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 2;
+}
+
+.highlighted {
+    color: #ffee2e;
+}
+
+.ellips {
+    position: absolute;
+    width: 465px;
+    height: 465px;
+    left: calc(50% - 465px/2 + 239.5px);
+    top: 92px;
+    border-radius: 50%;
+    /* orange */
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+.button {
+    text-align: center;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.card {
+    position: relative;
+    width: 455px;
+    height: 408px;
+    left: 0px;
+    top: 9px;
+    /*backdrop-filter: blur(2px);*/
+    float: left;
+    margin: 30px;
+}
+
+.text-article {
+    position: absolute;
+    margin-top: 109px;
+    margin-left: 30px;
+}
+
+.article-about {
+    padding: 30px;
+}
+
+.arrow-elips {
+    position: relative;
+    width: 62px;
+    height: 62px;
+    left: 0px;
+    top: 0px;
+
+    /* orange */
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.animal-card {
+    width: 294px;
+    height: 294px;
+    margin: 30px;
+}
+
+.animal-cards {
+    top: 160px;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
