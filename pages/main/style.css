@@ -13,17 +13,21 @@ body {
     margin: 0 auto;
 }
 
+/* Header styles start */
+
 .header-wrapper {
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
+    height: 80px;
+    z-index: 5;
 }
 
 .header-start {
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-evenly;
 }
 
@@ -31,6 +35,7 @@ body {
     background-color: black;
     color: white;
     position: fixed;
+    z-index: 5;
     top: 0;
     left: 0;
     width: 100%;
@@ -63,7 +68,6 @@ body {
 }
 
 
-
 .nav-link:hover, .nav-link:focus, .nav-link:active {
     opacity: 0.75;
 }
@@ -74,3 +78,143 @@ body {
     line-height: 140%;
 }
 
+/* Header styles end */
+
+/* Intro styles start */
+.intro {
+    background: url("../../assets/images/Giant Panda.png") no-repeat top center;
+    background-size: cover;
+    min-height: 780px;
+    padding-top: 80px;
+
+    margin-bottom: 102px;
+}
+
+.intro-header {
+    font-weight: 700;
+    font-size: 106.5px;
+    line-height: 75%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    text-transform: uppercase;
+    max-width: 500px;
+    left: calc(50% - 500.31px/2 + 330.15px);
+    top: 166px;
+}
+
+.highlighted {
+    color: #ffee2e;
+}
+
+.ellips {
+    position: absolute;
+    width: 465px;
+    height: 465px;
+    left: calc(50% - 465px/2 + 239.5px);
+    top: 92px;
+    border-radius: 50%;
+    /* orange */
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+.intro-btn {
+    position: absolute;
+    width: 298px;
+    height: 54px;
+    left: calc(50% - 298px/2 + 332px);
+    top: 626px;
+
+    /* orange */
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    padding: 16px 1px 16px 5px;
+    text-align: center;
+}
+
+.intro-btn-link {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+/* Intro styles end */
+
+/* About styles start*/
+.about {
+    /* position: absolute; */
+    margin-left: 30px;
+    height: 600px;
+}
+
+.article-about {
+    padding: 30px;
+}
+
+.decoration {
+    position: absolute;
+    left: 1400px;
+    top: -10px;
+
+    /*background: url(flower_foto.png);*/
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* About styles end*/
+
+.card {
+    position: relative;
+    width: 455px;
+    height: 408px;
+    left: 0px;
+    top: 9px;
+    /*backdrop-filter: blur(2px);*/
+    float: left;
+    margin: 30px;
+}
+
+.arrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.arrow-elips {
+    position: relative;
+    width: 62px;
+    height: 62px;
+    left: 0px;
+    top: 0px;
+
+    /* orange */
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%;
+    margin: 30px;
+    color: white;
+}
+
+.animal-card {
+    width: 294px;
+    height: 294px;
+    margin: 30px;
+}
+
+.animal-cards {
+    top: 160px;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.card-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
